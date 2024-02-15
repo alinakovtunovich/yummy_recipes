@@ -1,0 +1,260 @@
+{
+  "recipe": [
+    {
+      "id": "1",
+      "name": "Spaghetti Bolognese",
+      "description": "Classic Italian pasta dish with a rich meat sauce.",
+      "tag": ["italian", "pasta", "meat"],
+      "ingredient": [
+        {"amount": "400", "unit": "g", "name": "spaghetti", "preparation": "boiled"},
+        {"amount": "300", "unit": "g", "name": "ground beef"},
+        {"amount": "1", "unit": "onion", "name": "onion", "preparation": "chopped"},
+        {"amount": "2", "unit": "cloves", "name": "garlic", "preparation": "minced"},
+        {"amount": "400", "unit": "g", "name": "canned tomatoes"},
+        {"amount": "2", "unit": "tablespoons", "name": "tomato paste"},
+        {"amount": "1", "unit": "teaspoon", "name": "dried oregano"},
+        {"amount": "1", "unit": "teaspoon", "name": "dried basil"},
+        {"amount": "1", "unit": "teaspoon", "name": "sugar"},
+        {"amount": "Salt and pepper", "unit": "", "name": "to taste"}
+      ],
+      "step": [
+        {"description": "Cook spaghetti according to package instructions."},
+        {"description": "In a pan, brown ground beef with chopped onion and minced garlic."},
+        {"description": "Add canned tomatoes, tomato paste, oregano, basil, sugar, salt, and pepper. Simmer for 20 minutes."},
+        {"description": "Serve meat sauce over cooked spaghetti."},
+        {"description": "Enjoy your Spaghetti Bolognese!"}
+      ],
+      "image": "pastaB"
+    },
+    {
+      "id": "2",
+      "name": "Chicken Alfredo",
+      "description": "Creamy pasta dish with grilled chicken and Alfredo sauce.",
+      "tag": ["italian", "pasta", "chicken"],
+      "ingredient": [
+        {"amount": "300", "unit": "g", "name": "fettuccine", "preparation": "boiled"},
+        {"amount": "250", "unit": "g", "name": "chicken breast", "preparation": "grilled and sliced"},
+        {"amount": "1", "unit": "cup", "name": "heavy cream"},
+        {"amount": "1", "unit": "cup", "name": "Parmesan cheese", "preparation": "grated"},
+        {"amount": "2", "unit": "cloves", "name": "garlic", "preparation": "minced"},
+        {"amount": "2", "unit": "tablespoons", "name": "butter"},
+        {"amount": "Salt and pepper", "unit": "", "name": "to taste"}
+      ],
+      "step": [
+        {"description": "Cook fettuccine according to package instructions."},
+        {"description": "In a pan, melt butter and sauté minced garlic."},
+        {"description": "Add heavy cream, Parmesan cheese, salt, and pepper. Stir until the sauce thickens."},
+        {"description": "Toss in grilled chicken slices."},
+        {"description": "Serve Alfredo sauce over cooked fettuccine."},
+        {"description": "Enjoy your Chicken Alfredo!"}
+      ],
+      "image": "chickenA"
+    },
+    {
+          "id": "3",
+          "name": "Margherita Pizza",
+          "description": "Classic Italian pizza with tomato, mozzarella, and basil toppings.",
+          "tag": ["italian", "pizza"],
+          "ingredient": [
+            {"amount": "1", "unit": "piece", "name": "pizza dough", "preparation": "store-bought or homemade"},
+            {"amount": "1/2", "unit": "cup", "name": "tomato sauce"},
+            {"amount": "200", "unit": "g", "name": "mozzarella cheese", "preparation": "sliced"},
+            {"amount": "Handful", "unit": "", "name": "fresh basil leaves"},
+            {"amount": "1", "unit": "tablespoon", "name": "olive oil"},
+            {"amount": "Salt and pepper", "unit": "", "name": "to taste"}
+          ],
+          "step": [
+            {"description": "Preheat oven to 475°F (245°C)."},
+            {"description": "Roll out pizza dough and transfer to a baking sheet."},
+            {"description": "Spread tomato sauce over the dough, leaving a border for the crust."},
+            {"description": "Top with mozzarella slices and fresh basil leaves."},
+            {"description": "Drizzle olive oil over the pizza and season with salt and pepper."},
+            {"description": "Bake in the preheated oven for 12-15 minutes or until the crust is golden and cheese is melted."},
+            {"description": "Slice and enjoy your Margherita Pizza!"}
+          ],
+          "image": "pizza"
+        },
+        {
+          "id": "4",
+          "name": "Chicken Caesar Salad",
+          "description": "Classic Caesar salad with grilled chicken, croutons, and Caesar dressing.",
+          "tag": ["salad", "chicken"],
+          "ingredient": [
+            {"amount": "1", "unit": "head", "name": "romaine lettuce", "preparation": "chopped"},
+            {"amount": "200", "unit": "g", "name": "grilled chicken breast", "preparation": "sliced"},
+            {"amount": "1", "unit": "cup", "name": "croutons"},
+            {"amount": "1/2", "unit": "cup", "name": "Parmesan cheese", "preparation": "shredded"},
+            {"amount": "1/4", "unit": "cup", "name": "Caesar dressing"},
+            {"amount": "Salt and pepper", "unit": "", "name": "to taste"}
+          ],
+          "step": [
+            {"description": "In a large bowl, toss together chopped romaine lettuce, grilled chicken slices, croutons, and Parmesan cheese."},
+            {"description": "Drizzle Caesar dressing over the salad and toss until well-coated."},
+            {"description": "Season with salt and pepper to taste."},
+            {"description": "Serve and enjoy your Chicken Caesar Salad!"}
+          ],
+          "image": "salat"
+        },
+        {
+          "id": "5",
+          "name": "Vegetarian Stir-Fry",
+          "description": "Colorful and flavorful stir-fry with a variety of fresh vegetables.",
+          "tag": ["vegetarian", "stir-fry"],
+          "ingredient": [
+            {"amount": "1", "unit": "cup", "name": "broccoli florets"},
+            {"amount": "1", "unit": "bell pepper", "name": "red bell pepper", "preparation": "sliced"},
+            {"amount": "1", "unit": "cup", "name": "carrots", "preparation": "sliced"},
+            {"amount": "1", "unit": "cup", "name": "snap peas"},
+            {"amount": "1/2", "unit": "cup", "name": "mushrooms", "preparation": "sliced"},
+            {"amount": "3", "unit": "tablespoons", "name": "soy sauce"},
+            {"amount": "2", "unit": "tablespoons", "name": "sesame oil"},
+            {"amount": "1", "unit": "tablespoon", "name": "ginger", "preparation": "minced"},
+            {"amount": "3", "unit": "cloves", "name": "garlic", "preparation": "minced"},
+            {"amount": "1", "unit": "tablespoon", "name": "vegetable oil"},
+            {"amount": "1", "unit": "tablespoon", "name": "cornstarch"},
+            {"amount": "Cooked", "unit": "", "name": "rice", "preparation": "for serving"}
+          ],
+          "step": [
+            {"description": "In a small bowl, whisk together soy sauce, sesame oil, minced ginger, minced garlic, and cornstarch."},
+            {"description": "Heat vegetable oil in a wok or large skillet over high heat."},
+            {"description": "Add broccoli, red bell pepper, carrots, snap peas, and mushrooms. Stir-fry for 3-5 minutes until vegetables are crisp-tender."},
+            {"description": "Pour the sauce over the vegetables and toss to coat."},
+            {"description": "Serve over cooked rice and enjoy your Vegetarian Stir-Fry!"}
+          ],
+          "image": "bowl"
+        },
+        {
+          "id": "6",
+          "name": "Chocolate Chip Cookies",
+          "description": "Classic chocolate chip cookies with a soft and chewy texture.",
+          "tag": ["dessert", "cookies", "chocolate"],
+          "ingredient": [
+            {"amount": "1", "unit": "cup", "name": "unsalted butter", "preparation": "softened"},
+            {"amount": "3/4", "unit": "cup", "name": "granulated sugar"},
+            {"amount": "3/4", "unit": "cup", "name": "packed brown sugar"},
+            {"amount": "2", "unit": "large", "name": "eggs"},
+            {"amount": "1", "unit": "teaspoon", "name": "vanilla extract"},
+            {"amount": "3", "unit": "cups", "name": "all-purpose flour"},
+            {"amount": "1", "unit": "teaspoon", "name": "baking soda"},
+            {"amount": "1/2", "unit": "teaspoon", "name": "salt"},
+            {"amount": "2", "unit": "cups", "name": "chocolate chips"}
+          ],
+          "step": [
+            {"description": "Preheat oven to 350°F (175°C) and line baking sheets with parchment paper."},
+            {"description": "In a large bowl, cream together softened butter, granulated sugar, and brown sugar until smooth."},
+            {"description": "Beat in eggs one at a time, then stir in vanilla extract."},
+            {"description": "In a separate bowl, whisk together flour, baking soda, and salt. Gradually add dry ingredients to the wet ingredients."},
+            {"description": "Fold in chocolate chips."},
+            {"description": "Drop rounded tablespoons of dough onto prepared baking sheets."},
+            {"description": "Bake for 10-12 minutes or until edges are golden. Cool on baking sheets for a few minutes before transferring to wire racks to cool completely."},
+            {"description": "Enjoy your homemade Chocolate Chip Cookies!"}
+          ],
+          "image": "cookies"
+        },
+        {
+          "id": "7",
+          "name": "Caprese Salad",
+          "description": "Refreshing salad with tomatoes, mozzarella, basil, and balsamic glaze.",
+          "tag": ["salad", "italian", "vegetarian"],
+          "ingredient": [
+            {"amount": "4", "unit": "", "name": "tomatoes", "preparation": "sliced"},
+            {"amount": "200", "unit": "g", "name": "fresh mozzarella cheese", "preparation": "sliced"},
+            {"amount": "Handful", "unit": "", "name": "fresh basil leaves"},
+            {"amount": "2", "unit": "tablespoons", "name": "balsamic glaze"},
+            {"amount": "Salt and pepper", "unit": "", "name": "to taste"}
+          ],
+          "step": [
+            {"description": "Arrange sliced tomatoes and fresh mozzarella cheese on a serving platter."},
+            {"description": "Tuck fresh basil leaves in between tomato and mozzarella slices."},
+            {"description": "Drizzle balsamic glaze over the salad."},
+            {"description": "Season with salt and pepper to taste."},
+            {"description": "Serve and enjoy your Caprese Salad!"}
+          ],
+          "image": "capreze"
+        },
+        {
+          "id": "8",
+          "name": "Chicken Teriyaki",
+          "description": "Japanese-inspired dish with grilled chicken and teriyaki sauce.",
+          "tag": ["japanese", "chicken"],
+          "ingredient": [
+            {"amount": "500", "unit": "g", "name": "chicken thighs", "preparation": "boneless and skinless"},
+            {"amount": "1/2", "unit": "cup", "name": "soy sauce"},
+            {"amount": "1/4", "unit": "cup", "name": "mirin"},
+            {"amount": "1/4", "unit": "cup", "name": "sake"},
+            {"amount": "3", "unit": "tablespoons", "name": "brown sugar"},
+            {"amount": "1", "unit": "tablespoon", "name": "vegetable oil"},
+            {"amount": "1", "unit": "tablespoon", "name": "cornstarch"},
+            {"amount": "2", "unit": "tablespoons", "name": "water"},
+            {"amount": "Sesame seeds and green onions", "unit": "", "name": "for garnish"}
+          ],
+          "step": [
+            {"description": "In a bowl, whisk together soy sauce, mirin, sake, brown sugar, vegetable oil, and cornstarch."},
+            {"description": "Marinate chicken thighs in the teriyaki sauce for at least 30 minutes."},
+            {"description": "Grill chicken until fully cooked, brushing with additional teriyaki sauce during grilling."},
+            {"description": "Slice grilled chicken and garnish with sesame seeds and chopped green onions."},
+            {"description": "Serve your delicious Chicken Teriyaki over rice."},
+            {"description": "Enjoy your Japanese-inspired meal!"}
+          ],
+          "image": "teriyaki"
+        },
+        {
+          "id": "9",
+          "name": "Vegetable Lasagna",
+          "description": "Hearty and flavorful vegetable lasagna with layers of pasta, vegetables, and cheese.",
+          "tag": ["italian", "vegetarian", "pasta"],
+          "ingredient": [
+            {"amount": "9", "unit": "sheets", "name": "lasagna noodles", "preparation": "cooked"},
+            {"amount": "1", "unit": "cup", "name": "zucchini", "preparation": "sliced"},
+            {"amount": "1", "unit": "cup", "name": "yellow squash", "preparation": "sliced"},
+            {"amount": "1", "unit": "cup", "name": "bell peppers", "preparation": "sliced"},
+            {"amount": "1", "unit": "cup", "name": "mushrooms", "preparation": "sliced"},
+            {"amount": "2", "unit": "cups", "name": "ricotta cheese"},
+            {"amount": "2", "unit": "cups", "name": "mozzarella cheese", "preparation": "shredded"},
+            {"amount": "1", "unit": "cup", "name": "Parmesan cheese", "preparation": "grated"},
+            {"amount": "2", "unit": "cups", "name": "marinara sauce"},
+            {"amount": "1", "unit": "teaspoon", "name": "dried oregano"},
+            {"amount": "1", "unit": "teaspoon", "name": "dried basil"},
+            {"amount": "Salt and pepper", "unit": "", "name": "to taste"}
+          ],
+          "step": [
+            {"description": "Preheat oven to 375°F (190°C) and grease a baking dish."},
+            {"description": "In a bowl, combine sliced zucchini, yellow squash, bell peppers, and mushrooms."},
+            {"description": "In another bowl, mix together ricotta cheese, shredded mozzarella cheese, grated Parmesan cheese, dried oregano, dried basil, salt, and pepper."},
+            {"description": "Spread a thin layer of marinara sauce in the bottom of the baking dish."},
+            {"description": "Place a layer of cooked lasagna noodles over the sauce."},
+            {"description": "Spread half of the ricotta cheese mixture over the noodles."},
+            {"description": "Add half of the mixed vegetables on top of the cheese."},
+            {"description": "Repeat the layers with marinara sauce, noodles, ricotta cheese mixture, and vegetables."},
+            {"description": "Finish with a final layer of noodles, marinara sauce, and a sprinkle of mozzarella cheese."},
+            {"description": "Bake for 25-30 minutes or until the cheese is melted and bubbly."},
+            {"description": "Allow the lasagna to cool slightly before serving."},
+            {"description": "Slice, serve, and enjoy your Vegetable Lasagna!"}
+          ],
+          "image": "lazania"
+        },
+        {
+          "id": "10",
+          "name": "Mango Salsa",
+          "description": "Fresh and fruity mango salsa with a perfect blend of flavors.",
+          "tag": ["salsa", "appetizer"],
+          "ingredient": [
+            {"amount": "2", "unit": "", "name": "ripe mangoes", "preparation": "peeled, pitted, and diced"},
+            {"amount": "1", "unit": "", "name": "red onion", "preparation": "finely chopped"},
+            {"amount": "1", "unit": "", "name": "jalapeño", "preparation": "seeded and minced"},
+            {"amount": "1/2", "unit": "cup", "name": "fresh cilantro", "preparation": "chopped"},
+            {"amount": "1", "unit": "", "name": "lime", "preparation": "juiced"},
+            {"amount": "Salt and pepper", "unit": "", "name": "to taste"}
+          ],
+          "step": [
+            {"description": "In a bowl, combine diced mangoes, finely chopped red onion, minced jalapeño, and chopped fresh cilantro."},
+            {"description": "Drizzle lime juice over the mixture and toss to combine."},
+            {"description": "Season with salt and pepper to taste."},
+            {"description": "Refrigerate for at least 30 minutes to allow flavors to meld."},
+            {"description": "Serve your Mango Salsa as a refreshing appetizer or topping for grilled chicken or fish."},
+            {"description": "Enjoy the vibrant flavors of this fruity salsa!"}
+          ],
+          "image": "mango"
+        }
+  ]
+}
